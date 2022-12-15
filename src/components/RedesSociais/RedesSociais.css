@@ -1,0 +1,25 @@
+a {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 18px;
+    margin: 15px;
+    cursor: pointer;
+    color: var(--cor-bg);
+    background-color: var(--cor-secundaria);
+    transition: .3s ease-in;
+}
+
+a:hover{
+    transform: scale(1.03);
+}
+
+.conteudos_links {
+    max-width: 800px;
+    margin: auto;
+}

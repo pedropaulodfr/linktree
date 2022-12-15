@@ -1,0 +1,14 @@
+.perfil_conteudo {
+    color: var(--cor-terciaria);
+    text-align: center;
+    margin: 35px 0;
+}
+
+.perfil_imagem {
+    width: 96px;
+    height: 96px;
+    background-image: url("../../assets/perfil.jpg");
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+}
